@@ -1,9 +1,9 @@
-import './scss/index.scss'
+import "./scss/index.scss"
 
-console.log('test')
+console.log("test")
 
 async function start() {
-    await Promise.resolve()
+  await Promise.resolve()
 }
 
 start().then(console.log)
