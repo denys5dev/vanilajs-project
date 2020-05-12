@@ -5,13 +5,12 @@
     "browser": true,
     "node": true
   },
-
-  "extends": ["eslint:recommended", "plugin:prettier/recommended", "google"],
-
   "plugins": ["prettier"],
-
+  "extends": ["google", "plugin:prettier/recommended"],
   "rules": {
-    "semi": "off",
-    "prettier/prettier": "error"
+    "semi":"off",
+    "require-jsdoc": "off",
+    "prettier/prettier":  ["error", {
+   }]
   }
 }
