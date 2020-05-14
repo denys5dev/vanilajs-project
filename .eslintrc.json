@@ -10,6 +10,7 @@
   "rules": {
     "semi":"off",
     "require-jsdoc": "off",
+    "spaced-comment": "off",
     "prettier/prettier":  ["error", {
    }]
   }
